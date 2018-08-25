@@ -14,6 +14,8 @@
 		492964B921311B7C00A960B4 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492964B821311B7C00A960B4 /* StackViewController.swift */; };
 		492964BB21311B9900A960B4 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492964BA21311B9900A960B4 /* SimpleTableViewController.swift */; };
 		492964BD2131216700A960B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492964BC2131216700A960B4 /* Assets.xcassets */; };
+		492964BF21312BCF00A960B4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492964BE21312BCF00A960B4 /* RestaurantTableViewController.swift */; };
+		492964C1213141D200A960B4 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492964C0213141D200A960B4 /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		492964B821311B7C00A960B4 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		492964BA21311B9900A960B4 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		492964BC2131216700A960B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SimpleTable/SimpleTable/Assets.xcassets; sourceTree = "<group>"; };
+		492964BE21312BCF00A960B4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		492964C0213141D200A960B4 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				492964A22131121800A960B4 /* AppDelegate.swift */,
 				492964A42131121800A960B4 /* ViewController.swift */,
+				492964B821311B7C00A960B4 /* StackViewController.swift */,
+				492964BA21311B9900A960B4 /* SimpleTableViewController.swift */,
+				492964BE21312BCF00A960B4 /* RestaurantTableViewController.swift */,
+				492964C0213141D200A960B4 /* RestaurantTableViewCell.swift */,
 				492964A62131121800A960B4 /* Main.storyboard */,
 				492964BC2131216700A960B4 /* Assets.xcassets */,
 				492964AB2131121900A960B4 /* LaunchScreen.storyboard */,
 				492964AE2131121900A960B4 /* Info.plist */,
-				492964B821311B7C00A960B4 /* StackViewController.swift */,
-				492964BA21311B9900A960B4 /* SimpleTableViewController.swift */,
 			);
 			path = "template-ios";
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492964BF21312BCF00A960B4 /* RestaurantTableViewController.swift in Sources */,
 				492964B921311B7C00A960B4 /* StackViewController.swift in Sources */,
 				492964A52131121800A960B4 /* ViewController.swift in Sources */,
 				492964BB21311B9900A960B4 /* SimpleTableViewController.swift in Sources */,
+				492964C1213141D200A960B4 /* RestaurantTableViewCell.swift in Sources */,
 				492964A32131121800A960B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
