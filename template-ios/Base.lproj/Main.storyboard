@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="126" y="-1129"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Stack View Controller-->
         <scene sceneID="PJv-4g-OCY">
             <objects>
-                <viewController id="ZHd-pL-dl4" customClass="SecondViewController" customModule="StalkViewDemo01" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZHd-pL-dl4" customClass="StackViewController" customModule="template_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ScP-mq-kXh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,7 +242,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qy-4c-D0y" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="-374"/>
+            <point key="canvasLocation" x="126" y="-471"/>
+        </scene>
+        <!--Simple Table View Controller-->
+        <scene sceneID="0eQ-9e-yWH">
+            <objects>
+                <viewController id="fK0-c2-CTM" customClass="SimpleTableViewController" customModule="template_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="11D-8u-j3S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z6E-N0-ceV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="TJI-R8-zzu" style="IBUITableViewCellStyleDefault" id="LVz-LT-7yI">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LVz-LT-7yI" id="6dw-RI-Flp">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TJI-R8-zzu">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fK0-c2-CTM" id="8oK-C0-h7E"/>
+                                    <outlet property="delegate" destination="fK0-c2-CTM" id="8Mt-wm-WVk"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z6E-N0-ceV" firstAttribute="trailing" secondItem="HjK-DQ-XdX" secondAttribute="trailing" id="BYO-Cz-EaJ"/>
+                            <constraint firstItem="Z6E-N0-ceV" firstAttribute="bottom" secondItem="HjK-DQ-XdX" secondAttribute="bottom" id="G1J-8i-Lto"/>
+                            <constraint firstItem="Z6E-N0-ceV" firstAttribute="top" secondItem="HjK-DQ-XdX" secondAttribute="top" id="MQO-hw-jla"/>
+                            <constraint firstItem="Z6E-N0-ceV" firstAttribute="leading" secondItem="HjK-DQ-XdX" secondAttribute="leading" id="Xah-ie-qLL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HjK-DQ-XdX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7tS-p9-LsX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="196"/>
         </scene>
     </scenes>
     <resources>
